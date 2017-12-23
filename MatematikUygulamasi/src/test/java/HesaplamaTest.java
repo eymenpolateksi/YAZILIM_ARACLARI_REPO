@@ -34,4 +34,10 @@ public class HesaplamaTest {
 		int gercekSonuc=Hesaplama.carpma(6,7);
 		assertEquals(42,gercekSonuc);
 	}
+	@Test
+	public void testBolme() {
+		Hesaplama.bolme(5, 1);
+		int gercekSonuc=Hesaplama.bolme(5,1);
+		assertEquals(5,gercekSonuc);
+	}
 }
