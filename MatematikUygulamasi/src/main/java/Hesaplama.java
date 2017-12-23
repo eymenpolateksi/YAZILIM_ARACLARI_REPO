@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
+
 
 /**
  * Hesaplama Islemlerinden sorumlu sinif
@@ -42,10 +42,5 @@ public class Hesaplama {
 	public static int bolme(int sayi1, int sayi2) {
 		return sayi1 / sayi2;
 	}
-	@Test
-	public void testCarpma() {
-		carpma(6,7);
-		int gercekSonuc=Hesaplama.carpma(6,7);
-		assertEquals(42,gercekSonuc);
-	}
+	
 }
