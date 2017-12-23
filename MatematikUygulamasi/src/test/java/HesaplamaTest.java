@@ -28,5 +28,10 @@ public class HesaplamaTest {
 		int gercekSonuc = Hesaplama.topla(-25, -14);
 		assertEquals(-39, gercekSonuc);
 	}
-
+	@Test
+	public void testCarpma() {
+		Hesaplama.carpma(6,7);
+		int gercekSonuc=Hesaplama.carpma(6,7);
+		assertEquals(42,gercekSonuc);
+	}
 }

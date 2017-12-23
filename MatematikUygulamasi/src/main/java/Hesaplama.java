@@ -24,8 +24,8 @@ public class Hesaplama {
 	 * @return ilk sayi ile ikinci sayinin toplami (4) {@code sayi1 + sayi2}  
 	 * 
 	 * 
-	 * @throws NullPointerException (5) sayi1 11111111'e esitse NoPermissionException verir
-	 */
+	 * @throws NullPointerException (5) sayi1 11111111'e esitse NoPermissionException verir*/
+	
 	public static int /* (4) */ topla( /* (1) */ int sayi1, /* (2) */ int sayi2 /* (3) */ ) 
 			throws NullPointerException // (5) Firlatilan hata */
 	{
@@ -35,7 +35,6 @@ public class Hesaplama {
 		
 		return sayi1 + sayi2;
 	}
-	
 	public static int carpma(int sayi1, int sayi2) {
 		return sayi1 * sayi2;
 	}
